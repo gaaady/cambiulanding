@@ -2,6 +2,7 @@
     "version": 2,
     "routes": [
       { "handle": "filesystem" },
+      { "src": "/Cambiu Landing Page_files/(.*)", "dest": "/Cambiu Landing Page_files/$1" },
       { "src": "/.*", "dest": "/index.html" }
     ]
   }
